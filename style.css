@@ -1,0 +1,163 @@
+/* General Styles */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: normal;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 20px;
+}
+
+/* Header Styles */
+
+header {
+	background-color: #1C1C1C;
+	padding: 10px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.logo {
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Employee List Styles */
+
+h1 {
+	color: #1C1C1C;
+	margin: 100px 0 50px;
+	text-align: center;
+}
+
+.filter {
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.filter label {
+	margin-right: 10px;
+	color: #1C1C1C;
+	font-weight: bold;
+}
+
+.filter select {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.filter button {
+	background-color: #1C1C1C;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.addUser {
+	margin-bottom: 50px;
+}
+
+.addUser h2 {
+	color: #1C1C1C;
+	margin-bottom: 20px;
+}
+
+.addUser label {
+	margin-right: 10px;
+	color: #1C1C1C;
+	font-weight: bold;
+}
+
+.addUser input[type="text"],
+.addUser input[type="number"],
+.addUser select {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.addUser button {
+	background-color: #1C1C1C;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card {
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin-bottom: 50px;
+	width: calc(33.33% - 20px);
+	box-sizing: border-box;
+}
+
+.card h3 {
+	margin-top: 0;
+	color: #1C1C1C;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.card p {
+	margin-bottom: 5px;
+	color: #1C1C1C;
+	font-size: 16px;
+}
